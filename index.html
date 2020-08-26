@@ -1,0 +1,46 @@
+<html manifest="cache.manifest">
+<head>
+<title>MOHAMMED FARAG ELMASRI 0925524461</title>
+<script>
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="اخذ نسخة للتهكير للعمل بدون نت " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="اكتملت بنجاح";},1000);setTimeout(function(){window.msgs.innerHTML="قـم بغلق المتصفح وفتحه من جديد ";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+</script>
+<script src="exp_common.js"></script>
+<script src="exp_jailbreak.js"></script>
+</head>
+<body background="wallpaper.jpg">
+<body style="background-color:#0069ff;color:#ffc800;">
+<h1 id=msgs style='font-size:28px;text-align:center;'> نسخه مستقره ان شاءالله معدله من قبلي (( محمد المصري )) مستقره على التهكير الجديد  6.72 تعمل بدون أي مشاكل انطفاء الجهاز</h1>
+<hr><br>
+<h1 style='font-size:40px;text-align:center;'>MOHAMMED ELMASRI 6.72</h1>
+<div style="text-align:center">
+<br><br>
+<button onclick="load_exploit_HEN(); return false"><h1 style='color:#ff9900;font-size:33px;text-align:center;'> اضغط هنا لتشغيل التهكير </button>
+<br><br>
+
+</script>
+<br>
+</div>
+<script>
+function load_exploit(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Exploit ...</h1>";
+setTimeout(jailbreak,500);
+}
+
+function load_exploit_HEN(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>... جــــاري تــشــغــيـل الــتــهــكــيــر</h1>";
+LoadedMSG=" ✔ تــم بــنــجــاح  ";ExploitMira="HEN";MiraSRC="pl_HEN.js";
+setTimeout(jailbreak,500);
+}
+
+
+function load_HEN(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>... جــــاري تــشــغــيـل الــتــهــكــيــر</h1>";
+LoadedMSG="HEN Loaded ✔";
+var script = document.createElement('script');script.src = "pl_HEN.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+</script>
+</body>
+</html>
